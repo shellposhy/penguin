@@ -20,7 +20,6 @@ package org.b3log.symphony.processor.advice;
 import org.b3log.latke.ioc.inject.Inject;
 import org.b3log.latke.ioc.inject.Named;
 import org.b3log.latke.ioc.inject.Singleton;
-import org.b3log.latke.logging.Logger;
 import org.b3log.latke.model.User;
 import org.b3log.latke.service.LangPropsService;
 import org.b3log.latke.servlet.HTTPRequestContext;
@@ -45,11 +44,6 @@ import java.util.Map;
 @Named
 @Singleton
 public class PermissionGrant extends AfterRequestProcessAdvice {
-
-    /**
-     * Logger.
-     */
-    private static final Logger LOGGER = Logger.getLogger(PermissionGrant.class);
 
     /**
      * Role query service.

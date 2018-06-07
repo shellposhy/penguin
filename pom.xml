@@ -41,11 +41,6 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
 
-	<organization>
-		<name>B3log</name>
-		<url>https://b3log.org</url>
-	</organization>
-
 	<licenses>
 		<license>
 			<name>GNU Affero General Public License, Version 3</name>

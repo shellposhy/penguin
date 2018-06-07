@@ -18,7 +18,6 @@
 package org.b3log.symphony.processor.channel;
 
 import org.apache.commons.lang.StringUtils;
-import org.b3log.latke.logging.Logger;
 import org.b3log.symphony.model.Article;
 import org.json.JSONObject;
 
@@ -41,11 +40,6 @@ public class ArticleListChannel {
      * Session articles &lt;session, "articleId1,articleId2"&gt;.
      */
     public static final Map<Session, String> SESSIONS = new ConcurrentHashMap<>();
-
-    /**
-     * Logger.
-     */
-    private static final Logger LOGGER = Logger.getLogger(ArticleListChannel.class);
 
     /**
      * Notifies the specified article heat message to browsers.

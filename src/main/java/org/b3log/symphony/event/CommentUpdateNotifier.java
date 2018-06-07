@@ -42,6 +42,11 @@ import org.json.JSONObject;
 public class CommentUpdateNotifier extends AbstractEventListener<JSONObject> {
 
     /**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
+	/**
      * Logger.
      */
     private static final Logger LOGGER = Logger.getLogger(CommentUpdateNotifier.class);

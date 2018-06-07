@@ -17,8 +17,6 @@
  */
 package org.b3log.symphony.processor.channel;
 
-import org.b3log.latke.logging.Logger;
-
 import javax.servlet.http.HttpSession;
 import javax.websocket.HandshakeResponse;
 import javax.websocket.Session;
@@ -35,11 +33,6 @@ import java.util.Map;
  * @since 1.4.0
  */
 public final class Channels {
-
-    /**
-     * Logger.
-     */
-    private static final Logger LOGGER = Logger.getLogger(Channels.class);
 
     /**
      * WebSocket configurator.

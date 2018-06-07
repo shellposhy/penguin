@@ -58,6 +58,11 @@ import java.util.Set;
 public class CommentNotifier extends AbstractEventListener<JSONObject> {
 
     /**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
+	/**
      * Logger.
      */
     private static final Logger LOGGER = Logger.getLogger(CommentNotifier.class);
@@ -134,7 +139,8 @@ public class CommentNotifier extends AbstractEventListener<JSONObject> {
     @Inject
     private RoleQueryService roleQueryService;
 
-    @Override
+    @SuppressWarnings("unchecked")
+	@Override
     public void action(final Event<JSONObject> event) throws EventException {
         final JSONObject data = event.getData();
         LOGGER.log(Level.TRACE, "Processing an event [type={0}, data={1}]", event.getType(), data);

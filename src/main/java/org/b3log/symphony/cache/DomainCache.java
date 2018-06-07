@@ -20,7 +20,6 @@ package org.b3log.symphony.cache;
 import org.b3log.latke.ioc.inject.Inject;
 import org.b3log.latke.ioc.inject.Named;
 import org.b3log.latke.ioc.inject.Singleton;
-import org.b3log.latke.logging.Logger;
 import org.b3log.symphony.service.DomainQueryService;
 import org.json.JSONObject;
 
@@ -38,11 +37,6 @@ import java.util.List;
 @Named
 @Singleton
 public class DomainCache {
-
-    /**
-     * Logger.
-     */
-    private static final Logger LOGGER = Logger.getLogger(DomainCache.class);
 
     /**
      * Domains.

@@ -50,6 +50,11 @@ import java.net.URL;
 public class ArticleQQSender extends AbstractEventListener<JSONObject> {
 
     /**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
+	/**
      * Logger.
      */
     private static final Logger LOGGER = Logger.getLogger(ArticleQQSender.class);

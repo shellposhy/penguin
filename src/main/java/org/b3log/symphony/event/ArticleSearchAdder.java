@@ -45,6 +45,11 @@ import org.json.JSONObject;
 public class ArticleSearchAdder extends AbstractEventListener<JSONObject> {
 
     /**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
+	/**
      * Logger.
      */
     private static final Logger LOGGER = Logger.getLogger(ArticleSearchAdder.class);

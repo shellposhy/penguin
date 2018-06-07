@@ -19,7 +19,6 @@ package org.b3log.symphony.processor.advice;
 
 import org.b3log.latke.ioc.inject.Named;
 import org.b3log.latke.ioc.inject.Singleton;
-import org.b3log.latke.logging.Logger;
 import org.b3log.latke.servlet.HTTPRequestContext;
 import org.b3log.latke.servlet.advice.AfterRequestProcessAdvice;
 import org.b3log.latke.servlet.renderer.AbstractHTTPResponseRenderer;
@@ -38,11 +37,6 @@ import java.util.Map;
 @Named
 @Singleton
 public class CSRFToken extends AfterRequestProcessAdvice {
-
-    /**
-     * Logger.
-     */
-    private static final Logger LOGGER = Logger.getLogger(CSRFToken.class);
 
     @Override
     public void doAdvice(final HTTPRequestContext context, final Object ret) {

@@ -60,7 +60,8 @@ public class ArticleChannel {
     /**
      * Session set.
      */
-    public static final Set<Session> SESSIONS = Collections.newSetFromMap(new ConcurrentHashMap());
+    @SuppressWarnings({ "unchecked", "rawtypes" })
+	public static final Set<Session> SESSIONS = Collections.newSetFromMap(new ConcurrentHashMap());
 
     /**
      * Article viewing map &lt;articleId, count&gt;.
@@ -103,7 +104,8 @@ public class ArticleChannel {
      *
      * @param message the specified message
      */
-    public static void notifyComment(final JSONObject message) {
+    @SuppressWarnings({ "rawtypes", "unchecked" })
+	public static void notifyComment(final JSONObject message) {
         message.put(Common.TYPE, Comment.COMMENT);
 
         final LatkeBeanManager beanManager = LatkeBeanManagerImpl.getInstance();

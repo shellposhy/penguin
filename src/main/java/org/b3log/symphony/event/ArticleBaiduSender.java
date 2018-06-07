@@ -49,6 +49,11 @@ import java.net.URL;
 public class ArticleBaiduSender extends AbstractEventListener<JSONObject> {
 
     /**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
+	/**
      * Logger.
      */
     private static final Logger LOGGER = Logger.getLogger(ArticleBaiduSender.class);

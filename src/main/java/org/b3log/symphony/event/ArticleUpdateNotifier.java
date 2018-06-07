@@ -51,6 +51,11 @@ import java.util.Set;
 public class ArticleUpdateNotifier extends AbstractEventListener<JSONObject> {
 
     /**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
+	/**
      * Logger.
      */
     private static final Logger LOGGER = Logger.getLogger(ArticleUpdateNotifier.class);
@@ -79,7 +84,8 @@ public class ArticleUpdateNotifier extends AbstractEventListener<JSONObject> {
     @Inject
     private LangPropsService langPropsService;
 
-    @Override
+    @SuppressWarnings("unchecked")
+	@Override
     public void action(final Event<JSONObject> event) throws EventException {
         final JSONObject data = event.getData();
         LOGGER.log(Level.TRACE, "Processing an event [type={0}, data={1}]", event.getType(), data);
@@ -97,7 +103,8 @@ public class ArticleUpdateNotifier extends AbstractEventListener<JSONObject> {
             final Set<String> atUserNames = userQueryService.getUserNames(articleContent);
             atUserNames.remove(articleAuthorName); // Do not notify the author itself
 
-            final String tags = originalArticle.optString(Article.ARTICLE_TAGS);
+            @SuppressWarnings("unused")
+			final String tags = originalArticle.optString(Article.ARTICLE_TAGS);
 
             // 'following - article update' Notification
             final JSONObject followerUsersResult =

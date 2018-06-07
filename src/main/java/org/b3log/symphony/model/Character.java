@@ -60,7 +60,8 @@ public final class Character {
     /**
      * Character font.
      */
-    private static final Font FONT = new Font("宋体", Font.PLAIN, 40);
+    @SuppressWarnings("unused")
+	private static final Font FONT = new Font("宋体", Font.PLAIN, 40);
 
     /**
      * Gets a character by the specified character content in the specified characters.

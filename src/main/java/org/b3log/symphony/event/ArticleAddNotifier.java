@@ -58,6 +58,11 @@ import java.util.Set;
 public class ArticleAddNotifier extends AbstractEventListener<JSONObject> {
 
     /**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
+	/**
      * Logger.
      */
     private static final Logger LOGGER = Logger.getLogger(ArticleAddNotifier.class);
@@ -145,7 +150,8 @@ public class ArticleAddNotifier extends AbstractEventListener<JSONObject> {
                 final JSONObject followerUsersResult = followQueryService.getFollowerUsers(
                         UserExt.USER_AVATAR_VIEW_MODE_C_ORIGINAL, articleAuthorId, 1, Integer.MAX_VALUE);
 
-                final List<JSONObject> followerUsers = (List<JSONObject>) followerUsersResult.opt(Keys.RESULTS);
+                @SuppressWarnings("unchecked")
+				final List<JSONObject> followerUsers = (List<JSONObject>) followerUsersResult.opt(Keys.RESULTS);
                 for (final JSONObject followerUser : followerUsers) {
                     final JSONObject requestJSONObject = new JSONObject();
                     final String followerUserId = followerUser.optString(Keys.OBJECT_ID);

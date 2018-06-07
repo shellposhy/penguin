@@ -39,14 +39,10 @@ import java.util.concurrent.ConcurrentHashMap;
 public class ChatRoomChannel {
 
     /**
-     * Logger.
-     */
-    private static final Logger LOGGER = Logger.getLogger(ChatRoomChannel.class);
-
-    /**
      * Session set.
      */
-    public static final Set<Session> SESSIONS = Collections.newSetFromMap(new ConcurrentHashMap());
+    @SuppressWarnings({ "unchecked", "rawtypes" })
+	public static final Set<Session> SESSIONS = Collections.newSetFromMap(new ConcurrentHashMap());
 
     /**
      * Called when the socket connection with the browser is established.
