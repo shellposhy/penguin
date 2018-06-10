@@ -56,14 +56,15 @@ public class UserChannel {
     /**
      * Session set.
      */
-    public static final Map<String, Set<Session>> SESSIONS = new ConcurrentHashMap();
+    public static final Map<String, Set<Session>> SESSIONS = new ConcurrentHashMap<String, Set<Session>>();
 
     /**
      * Called when the socket connection with the browser is established.
      *
      * @param session session
      */
-    @OnOpen
+    @SuppressWarnings({ "unchecked", "rawtypes" })
+	@OnOpen
     public void onConnect(final Session session) {
         final JSONObject user = (JSONObject) Channels.getHttpSessionAttribute(session, User.USER);
         if (null == user) {

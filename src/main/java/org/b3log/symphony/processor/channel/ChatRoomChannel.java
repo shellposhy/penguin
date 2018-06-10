@@ -17,7 +17,6 @@
  */
 package org.b3log.symphony.processor.channel;
 
-import org.b3log.latke.logging.Logger;
 import org.b3log.symphony.model.Common;
 import org.json.JSONObject;
 
