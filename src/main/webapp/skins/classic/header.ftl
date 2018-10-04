@@ -1,7 +1,8 @@
 <div class="nav">
     <h1 aria-label="${symphonyLabel}" class="tooltipped tooltipped-s">
         <a href="${servePath}">
-            <svg><use xlink:href="#logo"></use></svg>
+            <!--<svg><use xlink:href="#logo"></use></svg>-->
+            <font color="#fff">全过程工程咨询论坛</font>
         </a>
     </h1>
     <div class="nav-tabs">

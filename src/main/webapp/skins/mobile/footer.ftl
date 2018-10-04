@@ -1,28 +1,9 @@
-<#--
-
-    Symphony - A modern community (forum/BBS/SNS/blog) platform written in Java.
-    Copyright (C) 2012-2018, b3log.org & hacpai.com
-
-    This program is free software: you can redistribute it and/or modify
-    it under the terms of the GNU Affero General Public License as published by
-    the Free Software Foundation, either version 3 of the License, or
-    (at your option) any later version.
-
-    This program is distributed in the hope that it will be useful,
-    but WITHOUT ANY WARRANTY; without even the implied warranty of
-    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-    GNU Affero General Public License for more details.
-
-    You should have received a copy of the GNU Affero General Public License
-    along with this program.  If not, see <https://www.gnu.org/licenses/>.
-
--->
 <div class="footer">
     <div class="wrapper ft-smaller">
         <div class="footer-nav">
             <span>&COPY; ${year}</span>
-            <a rel="copyright" href="https://hacpai.com" target="_blank">hacpai.com</a>
-            ${visionLabel}
+            <a rel="copyright" href="http://bbs.cnhpec.com" target="_blank">全过程工程咨询网论坛</a>
+            论坛
         </div>
         <div class="fn-hr5"></div>
         <div>
@@ -30,9 +11,7 @@
         </div>
         <div class="fn-hr5"></div>
         <div>
-            <span>Powered by <a href="https://b3log.org" target="_blank">B3log 开源</a> •
-                <a href="https://sym.b3log.org" target="_blank">Sym</a>
-                ${version} • ${elapsed?c}ms</span>
+            <span>Powered by <a href="http://www.cnhpec.com" target="_blank">天科慧通建筑科技有限公司</a></span>
         </div>
     </div>
 </div>

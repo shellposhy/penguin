@@ -1,5 +1,6 @@
 <div class="footer">
     <div class="wrapper">
+    	<!--
         <div class="slogan">
             ${indexIntroLabel} &nbsp; &nbsp;
             <a href="https://github.com/b3log/symphony" target="_blank" class="tooltipped tooltipped-n" aria-label="${siteCodeLabel}">
@@ -10,25 +11,25 @@
                href="https://t.me/b3log">
                 <svg class="icon-telegram"><use xlink:href="#icon-telegram"></use></svg></a>
         </div>
+        -->
         <div class="fn-flex-1">
             <div class="footer-nav fn-clear">
                 <a rel="help" href="${servePath}/about">${aboutLabel}</a>
-                <a href="https://hacpai.com/article/1457158841475">API</a>
+                <!--<a href="https://hacpai.com/article/1457158841475">API</a>-->
                 <a href="${servePath}/tag/announcement">${symAnnouncementLabel}</a>
                 <a href="${servePath}/domains">${domainLabel}</a>
                 <a href="${servePath}/tags">${tagLabel}</a>
                 <a href="${servePath}/statistic">${dataStatLabel}</a>
 
                 <div class="fn-right">&COPY; ${year}
-                    <a rel="copyright" href="https://hacpai.com" target="_blank">hacpai.com</a>
-                    ${visionLabel}</div>
+                    <a rel="copyright" href="http://bbs.cnhpec.com" target="_blank">全过程工程咨询网</a>
+                    论坛
+                </div>
             </div>
             <div class="fn-clear ft-smaller">
                        ${sloganLabel}
                     <div class="fn-right">
-                       Powered by <a href="https://b3log.org" target="_blank">B3log 开源</a> •
-                            <a href="https://sym.b3log.org" target="_blank">Sym</a>
-                            ${version} • ${elapsed?c}ms
+                       Powered by <a href="http://www.cnhpec.com" target="_blank">天科慧通建筑科技有限公司</a>
                     </div>
                 </div>
         </div>
