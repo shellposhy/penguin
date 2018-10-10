@@ -201,28 +201,10 @@
                                             <tr style="border-collapse:collapse">
                                                 <td width="30" style="border-collapse:collapse;font-family:Helvetica,Arial,sans-serif"></td>
                                                 <td width="360" valign="top" style="border-collapse:collapse;font-family:Helvetica,Arial,sans-serif">
-                                                    <span>
-                                                        <p align="left" style="font-size:12px;line-height:15px;color:#666666;margin-top:0px;margin-bottom:5px;white-space:normal">
-                                                            <span>
-                                                                <a href="${servePath}/about" style="color:#4183c4;font-weight:bold;text-decoration:none" target="_blank">关于</a> 
-                                                                <span style="color:#999">•</span>
-                                                                <a href="${servePath}/article/1457158841475" style="color:#4183c4;font-weight:bold;text-decoration:none" target="_blank">API</a>
-                                                                <span style="color:#999">•</span>
-                                                                <a href="${servePath}/perfect" style="color:#4183c4;font-weight:bold;text-decoration:none" target="_blank">优选</a> 
-                                                                <span style="color:#999">•</span>
-                                                                <a href="${servePath}/hot" style="color:#4183c4;font-weight:bold;text-decoration:none" target="_blank">热门</a> 
-                                                                <span style="color:#999">•</span>
-                                                                <a href="${servePath}/article/1460083956075" style="color:#4183c4;font-weight:bold;text-decoration:none" target="_blank">广告投放</a>
-                                                            </span>
-                                                        </p>
-                                                    </span>
-                                                    <p align="left" style="font-size:12px;line-height:15px;color:#ccc;margin-top:0px;margin-bottom:15px">
-                                                        可在<a href="${servePath}/settings/function" style="color:#999;font-weight:bold;text-decoration:none" target="_blank">功能设置</a>中管理邮件通知<a style="display:none;font-size: 0;" href="%%user_defined_unsubscribe_link%%">取消订阅</a>
-                                                    </p>
                                                 </td>
                                                 <td width="40" style="border-collapse:collapse;font-family:Helvetica,Arial,sans-serif"></td>
                                                 <td width="180" valign="top" style="border-collapse:collapse;font-family:Helvetica,Arial,sans-serif">
-                                                    <p align="right" style="font-size:12px;line-height:18px;color:#999;margin-top:0px;margin-bottom:15px;white-space:normal"><span>© 2016 <a href="${servePath}" style="color:#4183c4;font-weight:bold;text-decoration:none" target="_blank">hacpai.com</a> <span style="color:#333;">黑客与画家</span></span><br style="line-height:100%"><span style="font-size:12px;color:#ccc;">Feel easy about trust.</span></p>
+                                                    <p align="right" style="font-size:12px;line-height:18px;color:#999;margin-top:0px;margin-bottom:15px;white-space:normal"><span>© 2018 <a href="${servePath}" style="color:#4183c4;font-weight:bold;text-decoration:none" target="_blank">www.cnhpec.com</a> <span style="color:#333;">全过程工程咨询网</span></span><br style="line-height:100%"><span style="font-size:12px;color:#ccc;"></span></p>
                                                 </td>
                                                 <td width="30" style="border-collapse:collapse;font-family:Helvetica,Arial,sans-serif"></td>
                                             </tr>

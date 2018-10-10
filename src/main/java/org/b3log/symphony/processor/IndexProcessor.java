@@ -476,7 +476,7 @@ public class IndexProcessor {
     @After(adviceClass = StopwatchEndAdvice.class)
     public void showAbout(final HttpServletResponse response) throws Exception {
         response.setStatus(HttpServletResponse.SC_MOVED_PERMANENTLY);
-        response.setHeader("Location", "https://hacpai.com/article/1440573175609");
+        response.setHeader("Location", "http://www.cnhpec.com/static/default/about.html");
         response.flushBuffer();
     }
 
